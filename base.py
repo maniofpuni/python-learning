@@ -23,15 +23,12 @@ print("      ||")
 print("______||")
 
 
-# print("There once was a man named George,")
-# print("he was 70 years old.")
-# print("He really liked the name George")
-# print("but didn't like being 70.")
+for i in range(4,40):
+	if i%2==0:
+			print(i)
+			
 
 
 
-
-
-print("he was 70 years old.")
-print("He really liked the name George,")
-print("but didn't like being 70.")
+data = [i for i in range(100) if i%10==0]
+print (data) 
